@@ -335,6 +335,9 @@ hr
 .copyright-text,.footer-logo
 {
     flex-basis: 40%;
+    color: #68707f;
+    font-weight: bold;
+    font-size: inherit;
 }
 /* social icons */
 .social-icons

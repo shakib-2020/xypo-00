@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css" />
 
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <!-- header -->
@@ -236,8 +237,7 @@
         <div class="footer-right-col">
           <div class="footer-info">
             <div class="copyright-text">
-              <small>Made with ❤️ by Md.Nazmus Shakib</small> <br />
-              <small>&copy;copyright xypo 2020</small>
+              <small>&copy;copyright xypo 2022</small>
             </div>
             <div class="footer-logo">
               <img src="images/logo.png" />
@@ -255,24 +255,5 @@
       <img src="images/twitter.png" />
       <img src="images/linkedin.png" />
     </div>
-    <!-- javascrpit -->
-    <script>
-      var menuBtn = document.getElementById("menuBtn");
-      var sideNav = document.getElementById("sideNav");
-
-      sideNav.style.right = "-250px";
-      menuBtn.onclick = function () {
-        if (sideNav.style.right == "-250px") {
-          sideNav.style.right = "0";
-        } else {
-          sideNav.style.right = "-250px";
-        }
-      };
-
-      var scroll = new SmoothScroll('a[href*="#"]', {
-        speed: 1000,
-        speedAsDuration: true,
-      });
-    </script>
   </body>
 </html>
